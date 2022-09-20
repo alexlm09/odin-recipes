@@ -1,0 +1,58 @@
+/* style.css for recipes */
+
+/* Apply Helvetica to all the website */
+
+* {
+    font-family: "Helvetica", sans-serif;
+}
+
+
+/*Big Odin recipes title ID */
+
+#odinrecipes {
+    color: white;
+    background-color: rgb(133, 133, 209);
+    font-weight: bold;
+    font-size: 64px;
+    text-align: center;
+}
+
+/*Big Odin recipes title ID */
+
+/* Image resize */
+
+img.frontimg {
+    height: 300px;
+    width: auto;
+}
+
+/* Image resize */
+
+/* Title classes */
+
+h1.bigtitle {
+
+    color: purple;
+    font-weight: bold;
+    text-align: left;
+}
+
+h2.midtitle {
+
+    color: rgb(88, 41, 199);
+    font-weight: bold;
+    text-align: left;
+}
+
+li h3 {
+    color: rgb(172, 97, 97);
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Title classes */
+
+ul li {
+    color: rgb(83, 38, 38);
+    font-weight: lighter;
+}

@@ -1,0 +1,29 @@
+/* STYLE.CSS */
+
+body {
+    font-family: "Arial", sans-serif;
+}
+
+h1 {
+    color: brown;
+    background-color: lightblue;
+}
+
+.description {
+    color: red;
+    font-size: 32px;
+    background-color: aquamarine;
+}
+
+.description-text {
+    color: purple;
+}
+
+.ingredients {
+    color: red;
+    font-size: 24px;
+}
+
+.ingredients-list {
+    color: orange;
+}

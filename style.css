@@ -2,11 +2,44 @@
 
 body {
     font-family: "Arial", sans-serif;
+
 }
 
-h1 {
-    color: brown;
-    background-color: lightblue;
+h1,
+.big-title {
+    color: goldenrod;
+    background-color: #093145;
+    width: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 5px solid goldenrod;
+    margin: 30px auto;
+    text-align: center;
+    display: block;
+
+}
+
+.big-title {
+    box-sizing: border-box;
+    width: 400px;
+}
+
+.unlisted {
+    display: flexbox;
+    background-color: rgb(255, 226, 226);
+    border: black solid 3px;
+    width: 600px;
+    padding: 16px 16px 16px 12px;
+    margin: 10px 10px 10px 8px;
+}
+
+.listed {
+    background-color: rgb(219, 240, 240);
+    color: rgb(90, 7, 168);
+    border: 2px solid black;
+    width: 300px;
+    margin: 2px;
+    padding: 10px 10px 10px 6px;
 }
 
 .description {
